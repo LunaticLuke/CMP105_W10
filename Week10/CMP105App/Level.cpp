@@ -30,7 +30,7 @@ void Level::update(float dt)
 void Level::render()
 {
 	beginDraw();
-
+	tilemap.Render(window);
 	endDraw();
 }
 

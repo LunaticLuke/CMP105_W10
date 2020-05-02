@@ -4,6 +4,7 @@
 #include "Framework/Input.h"
 #include <string>
 #include <iostream>
+#include "MarioTilemap.h"
 
 
 class Level{
@@ -23,4 +24,5 @@ private:
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
+	MarioTilemap tilemap;
 };
